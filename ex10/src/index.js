@@ -27,7 +27,9 @@ function myFunction() {
             // Add a record here
         }
     }
+    return myMusic;
 }
-console.log(myFunction[2]);
 
+myFunction()[1];
+console.log(myFunction()[1]);
 module.exports = myFunction;
